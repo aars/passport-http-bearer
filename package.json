@@ -34,6 +34,7 @@
   ],
   "main": "./lib",
   "dependencies": {
+    "lodash": "^3.6.0",
     "passport-strategy": "1.x.x"
   },
   "devDependencies": {
@@ -51,7 +52,7 @@
     "browsers": [
       "chrome/latest"
     ],
-    "harness" : "mocha",
+    "harness": "mocha",
     "files": [
       "test/bootstrap/testling.js",
       "test/*.test.js"
